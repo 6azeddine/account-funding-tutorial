@@ -9,12 +9,11 @@
   - [Checkpoint 1: Implementing Link and initializing with Auth and Identity](#checkpoint-1-initializing-link-with-auth-and-identity)
   - [Checkpoint 2: Retrieve identity and initial balance information associated with the account](#checkpoint-2-retrieve-identity-and-initial-balance-information-associated-with-the-account)
   - [Checkpoint 3: Generating a partner processor token (Dwolla)](#checkpoint-3-generating-a-partner-processor-token)
-  - [Checkpoint 4: Parsing user name and email](#checkpoint-4-parsing-user-name-and-email)
+  - [Checkpoint 4: Parsing user name and email](#checkpoint-4-parsing-user-Azeddine El mone-and-s16098259@gmai.com)
   - [Checkpoint 5: Checking real-time account balance](#checkpoint-5-checking-current-account-balance)
   - [Checkpoint 6: Retrieving real-time account balance](#checkpoint-6-retrieving-real-time-balance-information)
   - [Checkpoint 7: Verifying user identity](#checkpoint-7-verifying-user-identity)
-  - [Checkpoint 8: Initiating a transfer](#checkpoint-8-initiating-a-transfer)
-  - [Checkpoint 9: Sending the transfer request to Dwolla](#checkpoint-9-sending-the-transfer-request-to-dwolla)
+  - [Checkpoint 8: Initiating a transfer](#checkpoint-8-initiating-a-transf](#checkpoint-9-sending-t)
 - [Let's try it all out!](#lets-try-it-all-out)
 - [Next steps](#next-steps)
 
@@ -24,7 +23,7 @@ Transferring funds from a bank account into an app (i.e., "account funding") is 
 
 Account funding is commonly implemented using a combination of Plaid products and a Plaid partner (i.e., Stripe, Dwolla, etc.). In this tutorial, we'll use Plaid Auth, Balance, Identity ("ABI"), and Dwolla to build account funding into the Pattern sample app. We'll retrieve account information through a combination of Auth and Dwolla, use Balance to check the balance of an account, and use Identity to verify the identity of users initiating a transfer. Dwolla will be used to move (fictional) funds from a user's bank account into the Plaid Pattern sample app. For a full list of supported partners, see [Auth Payment Partners](https://plaid.com/docs/auth/partnerships/).
 
-For a preview of what you'll be building toward, navigate to the <a href="https://github.com/plaid/pattern-account-funding" target="_blank">Plaid Pattern sample app</a> and follow the instructions in the README to launch the app. Once the app is up and running, create a user, enable "Verify Identity Mode", and proceed to link a bank account. Finally, click the "Transfer funds" button to transfer funds into the Pattern app.
+For a preview of what you'll be building toward, navigate to the <a href="https://github.com/plaid/pattern-account-funding" target="_blank">Plaid Pattern sample app</a> and follow the instructions in the README to launch the app. Once the app is up and running, create a user, enable "", and proceed to link a bank account. Finally, click the "Transfer funds" button to transfer funds into the Pattern app.
 
 ### Your Task
 
